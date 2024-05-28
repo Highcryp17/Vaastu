@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure that all JavaScript files use LF
+*.js text eol=lf
+
+# Ignore node_modules
+node_modules/* binary
